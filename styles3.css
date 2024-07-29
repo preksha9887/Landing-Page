@@ -1,0 +1,144 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #15a2be;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styles */
+#hero {
+    background:  color( red) ;
+    color: #270606;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #d7371c;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1em;
+}
+
+/* Menu Section Styles */
+#menu {
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#menu h2 {
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background: #15a2be;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px 0;
+}
+
+.menu-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+    background: #15a2be;
+    color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
